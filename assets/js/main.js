@@ -3,11 +3,11 @@ let nav = window.document.getElementById('nav');
 
 window.addEventListener('scroll',function(){
     if(window.scrollY > 50){
-        nav.classList.add('bg-white');
+        nav.classList.add('bg-gray');
         nav.classList.add('shadow');
         nav.classList.remove('bg-transparent');
     }else{
-        nav.classList.remove('bg-white');
+        nav.classList.remove('bg-gray');
         nav.classList.remove('shadow');
         nav.classList.add('bg-transparent');
     }
@@ -104,8 +104,8 @@ window.addEventListener('load',function(){
 document.querySelector('.loading').style.transition ='1s';
 
 // paraghraph typing
-let text1 = "Professional UI/UX Designer";
-let text2 = "Photographer | Web Developer";
+let text1 = "نهدف الى تشخيص و تأهيل ودمج الأطفال ذوي الرعاية الخاصة في بيئة تعليمية مناسبة ";
+let text2 = "لتحسين جودة حياتهم";
 let emptyString =  "&nbsp;".repeat(Math.max(text1.length, text2.length));
 
  
